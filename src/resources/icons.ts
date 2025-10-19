@@ -1,4 +1,7 @@
 import { IconType } from "react-icons";
+import { SiD3Dotjs, SiVega, SiAdobe} from "react-icons/si";
+import { IoLogoTableau } from "react-icons/io5";
+import { FaRProject } from "react-icons/fa";
 
 import {
   HiArrowUpRight,
@@ -29,7 +32,7 @@ import {
   SiSupabase,
 } from "react-icons/si";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, FaGoogleScholar, FaOrcid } from "react-icons/fa6";
+import { FaDiscord, FaSketch, FaGithub, FaLinkedin, FaX, FaThreads, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, FaGoogleScholar, FaOrcid } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -65,6 +68,12 @@ export const iconLibrary: Record<string, IconType> = {
   telegram: FaTelegram,
   googleScholar: FaGoogleScholar,
   orcid: FaOrcid,
+  sketch: FaSketch,
+  d3: SiD3Dotjs,
+  vega: SiVega,
+  tableau: IoLogoTableau,
+  rproject: FaRProject,
+  adobe: SiAdobe,
 };
 
 export type IconLibrary = typeof iconLibrary;
