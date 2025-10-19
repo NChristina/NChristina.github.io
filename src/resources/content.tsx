@@ -1,10 +1,10 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import { About, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
   firstName: "Christina",
   lastName: "Stoiber",
-  name: `Christina Stoiber`,
+  name: "Christina Stoiber",
   role: "Data Visualization Researcher",
   avatar: "/images/portrait-christina.jpg",
   email: "cn.adresse@gmail.com",
@@ -13,10 +13,11 @@ const person: Person = {
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
+
 
 const social: Social = [
   // Links are automatically displayed.
@@ -54,7 +55,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Making Data Accessible and Meaningful</>,
   featured: {
     display: false,
     title: (
@@ -70,7 +71,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Christina, a data visualization researcher and designer.  <br /> 
+      I'm Christina, a data visualization researcher.  <br /> 
       My overall goal is to support users in understanding complex data through intuitive and engaging visual representations.  
      
     </>
@@ -98,9 +99,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Christina is a visualization researcher with a passion for transforming complex data into clear visual respesentation.
+        My work bridges research and practice - merging cognitive science, data visualization, 
+        and user-centered design - to help people learn, explore, and make better decisions through data visualzations.
       </>
     ),
   },
@@ -109,9 +110,9 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Unviersity of Applied Sciences St. Pölten",
+        timeframe: "2015 - Present",
+        role: "Researcher & Deputy Head of a Josef Ressel Center",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
