@@ -71,7 +71,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Christina, a data visualization researcher.  <br /> 
+      I'm Dr. Christina Stoiber, a data visualization researcher.  <br /> 
       My overall goal is to support users in understanding complex data through intuitive and engaging visual representations.  
      
     </>
@@ -240,7 +240,7 @@ representations, Supervisor: FH-Prof. Priv.-Doz. Dipl.-Ing. Dr. Wolfgang Aigner,
       {
         title: "Figma & Sketch",
         description: (
-          <>Able to prototype in Figma and Sketch</>
+          <>Creating user interfaces and prototypes using Figma and Sketch</>
         ),
         tags: [
           {
@@ -271,7 +271,7 @@ representations, Supervisor: FH-Prof. Priv.-Doz. Dipl.-Ing. Dr. Wolfgang Aigner,
       {
         title: "Coding skills & Visualization tools",
         description: (
-          <>Basic Coding skills in Javascript, D3.js, Vega-Lite; Creating dashboards using Tableau and DataWrapper</>
+          <>Basic coding skills in JavaScript, D3.js, and Vega-Lite; experienced in creating interactive dashboards using Tableau and Datawrapper</>
         ),
         tags: [
           {
@@ -319,7 +319,7 @@ representations, Supervisor: FH-Prof. Priv.-Doz. Dipl.-Ing. Dr. Wolfgang Aigner,
        {
         title: "Adobe Creative Suite",
         description: (
-          <>Using Adobe Illustrator, Photoshop, Indesign to create designs, UI, and mockups</>
+          <>Experienced in designing and editing visual content using Adobe Illustrator, Photoshop, and InDesign</>
         ),
         tags: [
           {
