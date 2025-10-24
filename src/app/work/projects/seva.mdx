@@ -10,9 +10,7 @@ images:
 
 **Project Homepage:** [https://seva.fhstp.ac.at/en](https://seva.fhstp.ac.at/en)
 
-This project aims to support users in learning novel visual data analysis tools more quickly. 
-The main goal was to design and develop onboarding methods for visual analytics systems that can be automatically generated. 
-We follow a user-centered design approach informed by cognitive science theories.
+Design semi-automated **visualization onboarding methods** to help users learn visual analytics tools more quickly, using **user-centered design** informed by **cognitive science**.
 In the course of this project, I conducted my PhD at the TU Wien, Austria, which I finished with distinction in December 2023.
 My doctoral work focused on investigating user-centered strategies for guiding analysts (biomedical scientists and data journalists) through complex visual interfaces, combining semi-automated process generation with empirical user study validation.
 
@@ -21,7 +19,7 @@ My doctoral work focused on investigating user-centered strategies for guiding a
 **Role:** PhD student & workpackage lead | **Timeline:** 2020 - 2023 | **Type:** FFG – IKT der Zukunft
 
 ### The Challenge
-Data is being generated faster than people can analyze it, creating a growing gap between data availability and actionable insight. Visual Analytics (VA) bridges this gap by integrating human intuition with computational analytics to support effective decision-making. However, users often lack the necessary literacy to interpret novel visualizations and analytical methods, leading to misinterpretations, frustration, or rejection of powerful data tools.
+As data grows, Visual Analytics tools help users find insights through interactive visualization. However, most users lack training to understand complex interfaces, causing frustration and preventing people from using powerful analysis tools.
 
 ### My Role & Responsibilities
 - Work package lead for "Visualization Design & Evaluation"
@@ -31,23 +29,20 @@ Data is being generated faster than people can analyze it, creating a growing ga
 
 ### Approach & Strategy
 **Proof-of-Concept Prototype:**
-We designed four onboarding concepts and developed proof-of-concept prototypes based on the design considerations. We conducted two quantitative comparative user studies with MTurk workers and a qualitative comparative usability study with students. The main aim of these studies was to investigate the effect of onboarding on user performance and evaluate the subjective user experience. Furthermore, we explored abstract and concrete onboarding instructions and assessed them in a quantitative comparative user study with students.
+Prototyped four onboarding approaches and conducted comparative usability studies to evaluate their effectiveness. Tested abstract vs. concrete instruction strategies to understand impact on user performance and satisfaction.
 The resulting prototypes can be accessed here: [https://onboarding-methods.netlify.app/](https://onboarding-methods.netlify.app)
 
-**VisAhoi library:** We aim to integrate the visualization onboarding concept into VA tools using the underlying data of the visualization
-Existing onboarding solutions, such as AppCues and Intercom, mainly focus on user interfaces rather than visual representations. Similarly, common JavaScript libraries like Hopscotch, Intro.js, and GuideChimp offer guided tours that block the interface and do not allow users to explore visualizations while learning. This limitation makes them unsuitable for VA contexts, where users should interact with both the visualization and the onboarding simultaneously.
-To address this gap, we developed VisAhoi, a JavaScript library that integrates data-driven onboarding directly into VA tools. VisAhoi provides in-place annotations and floating action buttons for persistent, context-aware guidance without interrupting user interaction. Using a semi-automatic approach, the library utilizes visualization data and metadata to generate customized onboarding messages, helping developers and designers create effective, embedded explanations of visual elements such as axes, legends, and mappings.
+**VisAhoi library:** Existing tools (AppCues, Intro.js, GuideChimp) block interfaces during onboarding, preventing exploration—unsuitable for visual analytics. [VisAhoi](https://github.com/datavisyn/visAhoi)solves this: a JavaScript library providing non-blocking, data-driven guidance through in-place annotations and floating action buttons. It semi-automatically generates contextual explanations of visual elements (axes, legends, mappings) using visualization data and metadata.
+
 
 **Flourish Template:**
-The authoring tool combines a Flourish template and the VisAhoi library. 
-It provides a user interface to add onboarding and customize it: (1) editing, reordering, and/or removing the semi-automatically generated onboarding messages and onboarding stages, and (2) adding own messages and stages. 
-In general, the templates are divided into a fully customizable visualization area and the settings panel, which has limited customization possibilities.
+Built Flourish authoring template enabling designers to customize semi-automated onboarding through an intuitive interface—editing, reordering, removing, or adding guidance messages without coding.
 
 
 ### Key Complexities Addressed
-- Challenge 1: Visualization onboarding concept that is using the underlaying data of the visualization
-- Challenge 2: Application of the concept in two domains biomedical R&D and data journalism
-- Challenge 3: Semi-automated generated visualization onboarding instructions
+- Visualization onboarding concept that is using the underlaying data of the visualization
+- Application of the concept in two domains biomedical R&D and data journalism
+- Semi-automated generated visualization onboarding instructions
 
 ### Outcomes & Impact
 - Visualization Onboarding Prototypes [https://onboarding-methods.netlify.app/](https://onboarding-methods.netlify.app/)
