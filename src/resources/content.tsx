@@ -71,7 +71,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Dr. Christina Stoiber, a data visualization researcher.  <br /> 
+      I'm Christina Stoiber, a data visualization researcher.  <br /> 
       My overall goal is to support users in understanding complex data through intuitive and engaging visual representations.  
      
     </>
