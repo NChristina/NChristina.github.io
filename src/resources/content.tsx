@@ -5,9 +5,9 @@ const person: Person = {
   firstName: "Christina",
   lastName: "Stoiber",
   name: "Christina Stoiber",
-  role: "Data Visualization Researcher",
+  role: "Data Visualization Researcher & UX Designer",
   avatar: "/images/portrait-christina.jpg",
-  email: "cn.adresse@gmail.com",
+  email: "cstoiber90@gmail.com",
   location: "Europe/Vienna", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "German"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -71,7 +71,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Christina Stoiber, a data visualization researcher.  <br /> 
+      I'm Christina Stoiber, a data visualization researcher & UX designer.  <br /> 
       My overall goal is to support users in understanding complex data through intuitive and engaging visual representations.  
      
     </>
@@ -99,12 +99,12 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Christina is a visualization researcher with a passion for transforming complex data into clear visual respesentation.
+        Christina is a data visualization researcher and UX designer with a passion for transforming complex data into clear visual respesentation.
         My work bridges research and practice by merging cognitive science, data visualization, 
         and user-centered design to help people learn, explore, and make better decisions through data.
         <br />
        <a
-          href="/pdf/cv_christina_stoiber.pdf"
+          href="/pdf/lebenslauf_stoiber_EN_2025_short-industry.pdf"
           download ="cv_christina_stoiber.pdf"
           target="_blank"
           rel="noopener noreferrer"
@@ -122,21 +122,16 @@ const about: About = {
       {
         company: "University of Applied Sciences St. Pölten",
         timeframe: "2015 - Present",
-        role: "Researcher & Deputy Head of a Josef Ressel Center",
+        role: "Researcher, UX Designer, and Deputy Head",
         achievements: [
           <>
             Deputy Head of Josef Ressel Center for Knowledge-Assisted Visual Analytics
-            for Industrial Manufacturing Data & Coordination of three Use Cases in cooperation with
+            for Industrial Manufacturing Data & Coordination of three projects in cooperation with
             industry partners
           </>,
           <>
-            Writing and collaborating in research projects proposals in the field of information
-            visualization, visualization literacy and education, and HCI
-          </>,
-           <>
-            Managing, supporting, and working on research projects in the field of information
-          visualization, visualization literacy and education, and HCI
-          </>,
+            Managing cross-functional teams, organizing co-workshops, driving information architecture, conducting user research, validating prototypes, working with stakeholders
+          </>,   
            <>
             Writing and reviewing scientific papers
           </>,
