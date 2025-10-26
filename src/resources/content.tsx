@@ -5,7 +5,7 @@ const person: Person = {
   firstName: "Christina",
   lastName: "Stoiber",
   name: "Christina Stoiber",
-  role: "Data Visualization Researcher & UX Designer",
+  role: "Data Visualization Researcher and UX Designer",
   avatar: "/images/portrait-christina.jpg",
   email: "cstoiber90@gmail.com",
   location: "Europe/Vienna", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -51,7 +51,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "og/vis-onboarding-matrix.png", //it is the picture shown when sharing on social media
+  image: "/og/vis-onboarding-matrix.png", //it is the picture shown when sharing on social media
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
